@@ -29,5 +29,5 @@ The available working images can be distinguished into two different groups in o
 2. Tesi50.bmp, Tesi51.bmp.
 3. Tesi90.bmp, Tesi92.bmp, Tesi98.bmp
 
-# Running
+## Running
 To execute the program is required to install all the imported Python packages. After that, it is necessary to run the "main.py" script, making sure to be located in the same directory of the "images" folder.
