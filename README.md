@@ -26,6 +26,15 @@ For each connecting rod appearing in the image, the vision system provides the f
 3. Length, Width, Width at the barycenter.
 4. For each hole, position of the centre and diameter size.
 
+<figcaption>  
+    <p align="center">
+      Example of output results
+    </p>
+</figcaption> 
+<p align="center">
+  <img width=800 height=400 src="doc/outputs/output_example.png">
+</p>
+
 ## Task 2
 While still meeting the requirement of the First Task, the system has been modified in order to deal with one (or more) of the following three changes in the characteristics of the working images:
 1. Images may contain other objects (i.e. screws and washers) that need not to be analysed by the system (such kind of objects are often referred to in computer vision as “distractors”).
