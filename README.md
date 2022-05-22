@@ -68,6 +68,11 @@ While still meeting the requirement of the First Task, the system has been modif
   <img src="images/TESI90.BMP">
 </p>
 
+## Final results overview
+
+<p align="center">
+  <img src="doc/outputs/final_outputs.jpg">
+</p>
 
 ## Working Images
 The available working images can be distinguished into two different groups in order to provide a better understanding of the overall activity carried out.
