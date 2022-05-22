@@ -32,7 +32,7 @@ For each connecting rod appearing in the image, the vision system provides the f
     </p>
 </figcaption> 
 <p align="center">
-  <img width=800 height=400 src="doc/outputs/output_example.png">
+  <img src="doc/outputs/output_example.png">
 </p>
 
 ## Task 2
