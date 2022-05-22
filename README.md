@@ -1,11 +1,24 @@
 # Visual Inspection of Motorcycle Connecting Rods
 Software system aimed at visual inspection of motorcycle connecting rods. The system should be able to analyze the dimensions of two different types of connecting rods to allow a vision-guided robot to pick and sort rods based on their type and dimensions. The two rod types are characterized by a different number of holes: Type A rods have one hole whilst Type B rods have two holes. 
 
+<p align="center">
+  <img src="doc/outputs/outputs.gif">
+</p>
+
 ## Task 1
 We consider the following condition for each image:
 1. Images contain only connecting rods, which can be of both types and feature significantly diverse dimensions.
 2. Connecting rods have been carefully placed within the inspection area so to appear well separated in images (i.e. they do not have any contact point).
 3. Images have been taken by the backlighting technique so to render rods easily distinguishable (i.e. much darker) from background. However, for flexibility reasons the system should not require any change to work properly with lighting sources of different power. 
+
+<figcaption>  
+    <p align="center">
+      Example of task 1 working image
+    </p>
+</figcaption> 
+<p align="center">
+  <img src="images/TESI00.BMP">
+</p>
 
 For each connecting rod appearing in the image, the vision system provides the following information:
 1. Type of rod (A or B).
@@ -18,6 +31,34 @@ While still meeting the requirement of the First Task, the system has been modif
 1. Images may contain other objects (i.e. screws and washers) that need not to be analysed by the system (such kind of objects are often referred to in computer vision as “distractors”).
 2. Rods can have contact points but do not overlap one to another.
 3. The inspection area may be dirty due to the presence of scattered iron powder
+
+<figcaption>  
+    <p align="center">
+      1. Example of image with distractor
+    </p>
+</figcaption> 
+<p align="center">
+  <img src="images/TESI49.BMP">
+</p>
+
+<figcaption>  
+    <p align="center">
+      2. Example of contact points between rods
+    </p>
+</figcaption> 
+<p align="center">
+  <img src="images/TESI51.BMP">
+</p>
+
+<figcaption>  
+    <p align="center">
+      3. Example of iron powder presence
+    </p>
+</figcaption> 
+<p align="center">
+  <img src="images/TESI90.BMP">
+</p>
+
 
 ## Working Images
 The available working images can be distinguished into two different groups in order to provide a better understanding of the overall activity carried out.
